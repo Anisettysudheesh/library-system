@@ -1,0 +1,119 @@
+
+body {
+     font-family: Arial, sans-serif;
+     margin-top:0px;
+     background-color: rgba(255, 255, 255, 0.808);
+     padding:5px
+}
+h1 { 
+    font-size: 30px;
+     /* color:rgb(241, 101, 0);  */
+     text-align: center; 
+     margin:0px;
+    
+    }
+h2 { 
+    font-size: 40px;
+     color: rgba(4, 98, 119, 0.984);
+      text-align: center;
+      margin-top: -100px;
+      letter-spacing: 4px;
+     }
+     h3{
+            font-size: 30px;
+            color: rgb(246, 179, 23);
+            text-align: center;
+            margin-top: -35px;
+            margin-bottom: 0px;
+     }
+
+.scrolling { 
+    font-size: 25px;
+     color: red;
+     
+       overflow: hidden; 
+       white-space: nowrap;
+     }
+table {
+     width: 100%;
+      border-style:ridge;
+       margin-top: 20px;
+       border-width: 4px;
+       background-color: rgba(90, 55, 13, 0.136);
+       margin-left: 50%;
+        transform: translateX(-50%);
+     }
+th, td {
+     border: 1px solid rgb(0, 0, 0); 
+     padding: 5px;
+      text-align:center;
+       font-size: 30px;
+       font-weight:600;
+     }
+.left-margin {
+     text-align: left; 
+     color: rgb(169, 14, 53); 
+    }
+.editable { 
+    cursor: pointer;
+ }
+ header{
+    display:flex;
+    justify-content:space-evenly;
+    background-color: aliceblue;
+ }
+ span{
+    font-size: 35px;
+   font-weight: bold;
+   color:rgb(255, 106, 0);
+   margin-bottom: 0px;
+   padding-bottom: 0px;
+   margin-top: -50px;
+ }
+ a{
+    text-decoration: none;
+    display:flex;
+    justify-content: end;
+    
+ }
+ header img {
+     width: 100px;
+     height: 100px;
+     margin-top: -30px;
+ }
+
+@media (width<700px){
+     h1{
+          font-size: 20px;
+     }
+     h2{
+          font-size: 20px;
+          
+     }
+     h3{
+          font-size: 20px;
+         
+     }
+     .scrolling{
+          font-size: 15px;
+     }
+     table{
+          font-size: 15px;
+     }
+     th, td{
+          font-size: 15px;
+     }
+     span{
+          font-size: 15px;
+
+     }
+     a{
+          font-size: 15px;
+     }
+     header img{
+          width: 50px;
+          height: 50px;
+     }
+
+
+}
