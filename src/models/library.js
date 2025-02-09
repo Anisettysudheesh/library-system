@@ -147,7 +147,7 @@ function Library() {
         <h2>CENTRAL LIBRARY</h2>
         <h3>LIBRARY AT A GLANCE</h3>
     
-    <marquee class="scrolling" contenteditable="true" scrollamount="5" ref={scrollref} onClick={scrollEditable}>{scrollData || "Library updates scrolling text here..."}</marquee> 
+
 
     <table>
         <thead>
