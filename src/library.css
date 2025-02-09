@@ -27,13 +27,7 @@ h2 {
             margin-bottom: 0px;
      }
 
-.scrolling { 
-    font-size: 25px;
-     color: red;
-     
-       overflow: hidden; 
-       white-space: nowrap;
-     }
+
 table {
      width: 100%;
       border-style:ridge;
