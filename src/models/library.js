@@ -56,7 +56,7 @@ function Library() {
             IntPrintJournals:""
         },
     })
-    const general = useRef("")
+ 
     const branch1ref = useRef("")
     const branch2ref = useRef("")
     const titles1ref = useRef("")
@@ -92,7 +92,7 @@ function Library() {
     const vol7 = useRef("")
     const nat7 = useRef("")
     const int7 = useRef("")
-    const scrollref = useRef("")
+ 
 
 
 
@@ -142,7 +142,7 @@ function Library() {
     return ( 
         <div>
              <header>
-        <img src={logo} width="130px" height="130px"></img> <span contenteditable="true">GEETHANJALI INSTITUTE OF SCIENCE AND TECHNOLOGY: NELLORE, AP.</span>
+        <img src={logo} width="130px" alt="image" height="130px"></img> <span contenteditable="true">GEETHANJALI INSTITUTE OF SCIENCE AND TECHNOLOGY: NELLORE, AP.</span>
        </header>
         <h2>CENTRAL LIBRARY</h2>
         <h3>LIBRARY AT A GLANCE</h3>
