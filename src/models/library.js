@@ -142,7 +142,7 @@ function Library() {
     return ( 
         <div>
              <header>
-        <img src={logo} width="130px" alt="image" height="130px"></img> <span contenteditable="true">GEETHANJALI INSTITUTE OF SCIENCE AND TECHNOLOGY: NELLORE, AP.</span>
+        <img src={logo} width="130px" alt="logo" height="130px"></img> <span contenteditable="true">GEETHANJALI INSTITUTE OF SCIENCE AND TECHNOLOGY: NELLORE, AP.</span>
        </header>
         <h2>CENTRAL LIBRARY</h2>
         <h3>LIBRARY AT A GLANCE</h3>
