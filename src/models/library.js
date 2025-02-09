@@ -4,7 +4,7 @@ import "../library.css"
 function Library() {
 
   
-    const[scrollData,SetScrollData] = useState("")
+    
     const [data,setData]=useState({
         1:{
             Branch:"",
@@ -114,12 +114,7 @@ function Library() {
     }
 
     }
-    const scrollEditable = ()=>{
-        const oldvalue = scrollref.current.innerHTML
-        const newvalue = prompt("Enter new value")
-        SetScrollData(newvalue)
-
-    }
+ 
     
 
        let totalv = 0;
